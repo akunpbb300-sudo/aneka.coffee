@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aneka Coffee | Satu Scan, Semua Pengalaman</title>
+<meta name="description" content="Aneka Coffee Digital Experience — menu, promo, membership, dan lokasi dalam satu scan.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ SPLASH SCREEN ============ -->
+<div id="splash" aria-hidden="true">
+  <div class="splash-inner">
+    <div class="splash-cup">
+      <svg viewBox="0 0 120 120" width="88" height="88">
+        <g class="steam-group">
+          <path class="steam s1" d="M42 34 C 36 26, 48 20, 42 12" />
+          <path class="steam s2" d="M60 34 C 54 26, 66 20, 60 12" />
+          <path class="steam s3" d="M78 34 C 72 26, 84 20, 78 12" />
+        </g>
+        <path class="cup-body" d="M28 44 H86 L80 84 A8 8 0 0 1 72 91 H42 A8 8 0 0 1 34 84 Z" />
+        <path class="cup-fill" d="M34.5 52 H79.5 L75 82 A6 6 0 0 1 69 87 H45 A6 6 0 0 1 39 82 Z" />
+        <path class="cup-handle" d="M86 52 C 100 52, 100 76, 86 76" />
+        <line class="cup-base" x1="38" y1="96" x2="76" y2="96" />
+      </svg>
+    </div>
+    <p class="splash-word">Aneka<span>Coffee</span></p>
+    <div class="splash-bar"><span></span></div>
+  </div>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">
+      <img src="assets/logo.png" alt="Logo Aneka Coffee" class="nav-logo">
+      <span>Aneka Coffee</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#menu">Menu</a>
+      <a href="#promo">Promo</a>
+      <a href="#membership">Membership</a>
+      <a href="#story">Cerita</a>
+      <a href="#lokasi">Lokasi</a>
+    </nav>
+    <a href="#menu" class="btn btn-accent nav-cta">Pesan Sekarang</a>
+    <button id="navToggle" class="nav-toggle" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-beans"></div>
+    <div class="hero-glow"></div>
+  </div>
+  <div class="hero-content reveal">
+    <span class="eyebrow">Aneka Coffee Digital Experience</span>
+    <h1>Selamat Datang di<br><span>Aneka Coffee</span></h1>
+    <p class="hero-sub">Satu Scan, Semua Pengalaman Aneka Coffee.</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn btn-accent ripple">Lihat Menu</a>
+      <a href="#order" class="btn btn-ghost ripple">Pesan Sekarang</a>
+    </div>
+  </div>
+  <div class="hero-cup reveal" aria-hidden="true">
+    <svg viewBox="0 0 200 220" width="220" height="240">
+      <ellipse class="hero-shadow" cx="100" cy="205" rx="70" ry="10"/>
+      <path class="hero-saucer" d="M20 178 H180 L166 196 A14 14 0 0 1 152 206 H48 A14 14 0 0 1 34 196 Z"/>
+      <path class="hero-cup-body" d="M42 70 H158 L146 168 A16 16 0 0 1 130 182 H70 A16 16 0 0 1 54 168 Z"/>
+      <path class="hero-cup-liquid" d="M50 84 H150 L140 160 A12 12 0 0 1 128 170 H72 A12 12 0 0 1 60 160 Z"/>
+      <path class="hero-handle" d="M158 90 C 188 90, 188 140, 158 140"/>
+      <g class="hero-steam">
+        <path d="M75 60 C 65 46, 85 36, 75 20"/>
+        <path d="M100 60 C 90 46, 110 36, 100 20"/>
+        <path d="M125 60 C 115 46, 135 36, 125 20"/>
+      </g>
+    </svg>
+  </div>
+  <a href="#services" class="scroll-cue" aria-label="Gulir ke bawah"><span></span></a>
+</section>
+
+<!-- ============ EXPLORE SERVICES ============ -->
+<section id="services" class="services">
+  <div class="section-head reveal">
+    <span class="eyebrow eyebrow-dark">Jelajahi</span>
+    <h2>Semua yang kamu butuhkan, satu genggaman</h2>
+  </div>
+  <div class="service-grid">
+    <a href="#menu" class="service-card reveal">
+      <span class="service-icon">☕</span>
+      <h3>Digital Menu</h3>
+      <p>Cari dan pesan menu favoritmu tanpa antre.</p>
+    </a>
+    <a href="#promo" class="service-card reveal">
+      <span class="service-icon">🎁</span>
+      <h3>Promo</h3>
+      <p>Diskon dan penawaran spesial tiap minggu.</p>
+    </a>
+    <a href="#bestseller" class="service-card reveal">
+      <span class="service-icon">⭐</span>
+      <h3>Best Seller</h3>
+      <p>Menu paling dicari pelanggan Aneka Coffee.</p>
+    </a>
+    <a href="#membership" class="service-card reveal">
+      <span class="service-icon">🎫</span>
+      <h3>Membership</h3>
+      <p>Kumpulkan poin, tukar jadi hadiah.</p>
+    </a>
+    <a href="#story" class="service-card reveal">
+      <span class="service-icon">📖</span>
+      <h3>Cerita Aneka Coffee</h3>
+      <p>Perjalanan kami sejak 2018.</p>
+    </a>
+    <a href="#lokasi" class="service-card reveal">
+      <span class="service-icon">📍</span>
+      <h3>Lokasi</h3>
+      <p>Temukan cabang terdekat dari kamu.</p>
+    </a>
+    <a href="#instagram" class="service-card reveal">
+      <span class="service-icon">📷</span>
+      <h3>Instagram</h3>
+      <p>Update konten dan promo terbaru kami.</p>
+    </a>
+    <a href="#whatsapp" class="service-card reveal">
+      <span class="service-icon">💬</span>
+      <h3>WhatsApp</h3>
+      <p>Tanya-tanya atau pesan langsung, cepat.</p>
+    </a>
+  </div>
+</section>
+
+<!-- ============ BEST SELLER ============ -->
+<section id="bestseller" class="bestseller">
+  <div class="section-head reveal">
+    <span class="eyebrow">Favorit Pelanggan</span>
+    <h2>Best Seller Aneka Coffee</h2>
+  </div>
+  <div class="slider-wrap reveal">
+    <button class="slider-btn prev" id="bsPrev" aria-label="Sebelumnya">‹</button>
+    <div class="slider" id="bsSlider"></div>
+    <button class="slider-btn next" id="bsNext" aria-label="Berikutnya">›</button>
+  </div>
+</section>
+
+<!-- ============ DIGITAL MENU ============ -->
+<section id="menu" class="menu">
+  <div class="section-head reveal">
+    <span class="eyebrow">Digital Menu</span>
+    <h2>Pilih, racik, nikmati</h2>
+  </div>
+  <div class="menu-controls reveal">
+    <div class="menu-search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input type="text" id="menuSearch" placeholder="Cari menu...">
+    </div>
+    <div class="menu-filters" id="menuFilters">
+      <button class="filter-chip active" data-cat="all">Semua</button>
+      <button class="filter-chip" data-cat="espresso">Espresso</button>
+      <button class="filter-chip" data-cat="latte">Latte</button>
+      <button class="filter-chip" data-cat="manual">Manual Brew</button>
+      <button class="filter-chip" data-cat="noncoffee">Non Coffee</button>
+      <button class="filter-chip" data-cat="snack">Snack</button>
+    </div>
+  </div>
+  <div class="menu-grid" id="menuGrid"></div>
+  <p class="menu-empty" id="menuEmpty" hidden>Menu tidak ditemukan. Coba kata kunci lain.</p>
+</section>
+
+<!-- ============ PROMO ============ -->
+<section id="promo" class="promo">
+  <div class="section-head reveal light">
+    <span class="eyebrow">Jangan Sampai Kelewatan</span>
+    <h2>Promo Aneka Coffee</h2>
+  </div>
+  <div class="promo-grid">
+    <div class="promo-card reveal">
+      <span class="promo-tag">Populer</span>
+      <h3>Buy 2 Get 1</h3>
+      <p>Ajak temanmu, satu gelas jadi gratis untuk pembelian menu pilihan.</p>
+    </div>
+    <div class="promo-card reveal">
+      <span class="promo-tag">Setiap Hari</span>
+      <h3>Happy Hour</h3>
+      <p>Diskon 20% untuk semua menu kopi, pukul 14.00–16.00.</p>
+    </div>
+    <div class="promo-card reveal">
+      <span class="promo-tag">Khusus</span>
+      <h3>Diskon Mahasiswa</h3>
+      <p>Tunjukkan KTM, dapatkan potongan harga 15% setiap kunjungan.</p>
+    </div>
+    <div class="promo-card reveal">
+      <span class="promo-tag">Member</span>
+      <h3>Voucher Member</h3>
+      <p>Tukar poin membership dengan voucher belanja spesial.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEMBERSHIP ============ -->
+<section id="membership" class="membership">
+  <div class="membership-inner">
+    <div class="membership-text reveal">
+      <span class="eyebrow">Loyalty Program</span>
+      <h2>Digital Loyalty Card</h2>
+      <p>Scan QR member setiap transaksi, kumpulkan poin, dan tukar dengan reward favoritmu — tanpa kartu fisik.</p>
+      <ul class="membership-list">
+        <li>Poin otomatis setiap pembelian</li>
+        <li>Voucher ulang tahun spesial</li>
+        <li>Tukar poin kapan saja</li>
+      </ul>
+    </div>
+    <div class="membership-card reveal">
+      <div class="mcard">
+        <div class="mcard-top">
+          <span class="mcard-brand">Aneka Coffee</span>
+          <span class="mcard-tier">Gold Member</span>
+        </div>
+        <div class="mcard-qr" id="mcardQr"></div>
+        <div class="mcard-name">Nama Member</div>
+        <div class="mcard-progress">
+          <div class="mcard-bar"><span id="pointBar"></span></div>
+          <div class="mcard-points"><strong id="pointNow">640</strong> / 1000 poin menuju Birthday Reward</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section id="story" class="story">
+  <div class="section-head reveal">
+    <span class="eyebrow">Perjalanan Kami</span>
+    <h2>Cerita Aneka Coffee</h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-line" aria-hidden="true"></div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <span class="timeline-year">2018</span>
+      <h3>Awal Mula</h3>
+      <p>Aneka Coffee lahir dari kedai kecil dengan resep racikan keluarga.</p>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <span class="timeline-year">Medan</span>
+      <h3>Cabang Pertama</h3>
+      <p>Ekspansi pertama membawa cita rasa Aneka Coffee ke lebih banyak pelanggan.</p>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <span class="timeline-year">Bogor</span>
+      <h3>Tumbuh Bersama</h3>
+      <p>Kehadiran kedua menegaskan komitmen kami pada kualitas dan konsistensi.</p>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <span class="timeline-year">Sekarang</span>
+      <h3>Digital Experience</h3>
+      <p>Kini Aneka Coffee hadir lebih dekat lewat satu scan QR, kapan saja.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOKASI ============ -->
+<section id="lokasi" class="lokasi">
+  <div class="lokasi-inner">
+    <div class="lokasi-text reveal">
+      <span class="eyebrow">Kunjungi Kami</span>
+      <h2>Lokasi Aneka Coffee</h2>
+      <p class="lokasi-addr">Jl. Kopi Nikmat No. 18, Bogor, Jawa Barat</p>
+      <p class="lokasi-hours">Setiap hari, 08.00 – 22.00 WIB</p>
+      <a class="btn btn-accent ripple" id="mapsBtn" href="https://maps.google.com" target="_blank" rel="noopener">Buka di Google Maps</a>
+    </div>
+    <div class="lokasi-map reveal">
+      <iframe title="Peta Lokasi Aneka Coffee" src="https://www.google.com/maps?q=Bogor,Jawa+Barat&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTAGRAM ============ -->
+<section id="instagram" class="instagram">
+  <div class="section-head reveal">
+    <span class="eyebrow">@anekacoffee</span>
+    <h2>Ikuti Cerita Kami di Instagram</h2>
+  </div>
+  <div class="ig-grid" id="igGrid"></div>
+  <a href="https://instagram.com" target="_blank" rel="noopener" class="btn btn-ghost ripple reveal">Follow Instagram</a>
+</section>
+
+<!-- ============ GOOGLE REVIEW ============ -->
+<section id="review" class="review">
+  <div class="section-head reveal light">
+    <span class="eyebrow">Google Review</span>
+    <h2>Kata Mereka Tentang Kami</h2>
+    <div class="review-score">
+      <span class="score-num">4.8</span>
+      <span class="stars">★★★★★</span>
+      <span class="score-count">berdasarkan 1.240 ulasan</span>
+    </div>
+  </div>
+  <div class="review-grid" id="reviewGrid"></div>
+  <a href="https://g.page/r/review" target="_blank" rel="noopener" class="btn btn-accent ripple reveal">Tulis Review</a>
+</section>
+
+</main>
+
+<!-- ============ WHATSAPP FLOATING ============ -->
+<div class="wa-float" id="waFloat">
+  <button class="wa-btn" id="waBtn" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16 3C9 3 3.3 8.6 3.3 15.5c0 2.4.7 4.7 1.9 6.7L3 29l7-1.9c1.9 1 4 1.6 6 1.6 7 0 12.7-5.6 12.7-12.5S23 3 16 3zm0 22.7c-1.9 0-3.7-.5-5.3-1.4l-.4-.2-4.2 1.1 1.1-4-.3-.4a10 10 0 1 1 9.1 4.9z"/><path d="M21.4 18.3c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.3.2-.6.1a8.2 8.2 0 0 1-4.1-3.6c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5s-.7-1.7-1-2.3-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4a3.5 3.5 0 0 0-1.1 2.6c0 1.5 1.1 3 1.3 3.2s2.2 3.4 5.3 4.7c2 .8 2.7.9 3.7.8.6-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.2-.2-.5-.4z"/></svg>
+  </button>
+  <div class="wa-panel" id="waPanel" hidden>
+    <div class="wa-panel-head">
+      <img src="assets/logo.png" alt="">
+      <div>
+        <strong>Aneka Coffee</strong>
+        <span>Biasanya membalas dalam beberapa menit</span>
+      </div>
+    </div>
+    <p class="wa-msg">Halo! 👋 Ada yang bisa kami bantu? Ketuk salah satu pesan cepat di bawah.</p>
+    <div class="wa-quick">
+      <button data-msg="Halo, saya ingin bertanya tentang menu.">Tanya Menu</button>
+      <button data-msg="Halo, saya ingin memesan untuk sekarang.">Pesan Sekarang</button>
+      <button data-msg="Halo, saya ingin tanya tentang lokasi.">Tanya Lokasi</button>
+    </div>
+    <a id="waSend" class="btn btn-accent" href="#" target="_blank" rel="noopener">Chat via WhatsApp</a>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Logo Aneka Coffee">
+      <span>Aneka Coffee</span>
+      <p>Satu Scan, Semua Pengalaman Aneka Coffee.</p>
+    </div>
+    <nav class="footer-nav">
+      <a href="#menu">Menu</a>
+      <a href="#promo">Promo</a>
+      <a href="#membership">Membership</a>
+      <a href="#story">Cerita</a>
+      <a href="#lokasi">Lokasi</a>
+    </nav>
+    <div class="footer-social">
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+      <a href="https://g.page/r/review" target="_blank" rel="noopener" aria-label="Google Review">G</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 Aneka Coffee. Seluruh hak cipta dilindungi.</p>
+</footer>
+
+<button id="toTop" class="to-top" aria-label="Kembali ke atas">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
